@@ -21,8 +21,12 @@
 <body>
     <h1>SQL Command</h1>
     <textarea id="SQLcommand" cols="30" rows="10"></textarea>
+    <select name="" id="IDselect" onchange="SelectID(this.value)">
+        
+    </select>
     <br>
     <button onclick="commit()">enter</button>
+    <button onclick="CommitBtn()">CommitBtn</button>
     <br><br>
     <div id="output"></div>
     <script type="text/javascript" src="./main.js"></script>
